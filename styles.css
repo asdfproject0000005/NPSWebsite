@@ -1,0 +1,55 @@
+html{
+    background-color: rgb(7, 0, 19);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #E68AB0;
+}
+
+a{
+    color: #ffe600;
+    text-decoration: none;
+}
+
+.pixel{
+    image-rendering: pixelated;
+}
+
+.logo-main{
+    width: auto;
+    background-image: url("Assets/Branding/NPS-logo-yellow\(6x\).png");
+    height:200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.panel-center{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+
+.panel-bottom{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    left: 0;
+}
+
+.logo-pr{
+    width: auto;
+    background-image: url("Assets/Branding/PetalRunnerLogo.png");
+    height:48px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
